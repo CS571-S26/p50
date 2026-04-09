@@ -1,0 +1,23 @@
+.hero {
+  background: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #aaa;
+}
+
+.loading-msg {
+  text-align: center;
+  padding: 60px 40px;
+  color: #888;
+  font-size: 16px;
+}
