@@ -10,14 +10,14 @@ function ArtworkDetail() {
     return (
       <div className="detail-not-found">
         <h2>Artwork not found</h2>
-        <Link to="/">Back to Home</Link>
+        <Link to="/browse">Back to Browse</Link>
       </div>
     );
   }
 
   return (
     <div className="artwork-detail">
-      <Link to="/" className="back-link">← Back to Browse</Link>
+      <Link to="/browse" className="back-link">← Back to Browse</Link>
       <div className="detail-content">
         <div className="detail-image">
           <img src={artwork.image} alt={artwork.title} />
@@ -46,7 +46,10 @@ function ArtworkDetail() {
             </tbody>
           </table>
           <p className="detail-description">{artwork.description}</p>
-          <button className="share-btn" onClick={() => navigator.clipboard.writeText(window.location.href)}>
+          <button
+            className="share-btn"
+            onClick={() => navigator.clipboard.writeText(window.location.href)}
+          >
             Copy Link to Share
           </button>
         </div>

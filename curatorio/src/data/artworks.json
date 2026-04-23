@@ -7,7 +7,7 @@
     "medium": "Oil on canvas",
     "era": "Post-Impressionism",
     "museum": "Museum of Modern Art",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1920px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
     "description": "A swirling night sky over a village, painted during van Gogh's stay at the Saint-Paul-de-Mausole asylum in Saint-Rémy-de-Provence."
   },
   {
@@ -18,7 +18,7 @@
     "medium": "Oil on canvas",
     "era": "Baroque",
     "museum": "Mauritshuis",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/1280px-1665_Girl_with_a_Pearl_Earring.jpg",
     "description": "Often referred to as the 'Mona Lisa of the North,' this painting depicts a girl wearing an exotic dress and a large pearl earring."
   },
   {
@@ -84,7 +84,7 @@
     "medium": "Oil and gold leaf on canvas",
     "era": "Art Nouveau",
     "museum": "Österreichische Galerie Belvedere",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/800px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1920px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
     "description": "A couple locked in an intimate embrace, wrapped in elaborate gold-patterned robes, set against a gold background."
   },
   {
@@ -108,5 +108,115 @@
     "museum": "National Gallery of Norway",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1280px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
     "description": "A figure stands on a bridge with an agonized expression against a turbulent orange sky."
+  },
+  {
+    "id": 11,
+    "title": "Mona Lisa",
+    "artist": "Leonardo da Vinci",
+    "year": 1503,
+    "medium": "Oil on poplar panel",
+    "era": "Renaissance",
+    "museum": "Louvre Museum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1280px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "description": "The world's most famous painting depicts a seated woman with an enigmatic smile, believed to be Lisa Gherardini. Leonardo's mastery of sfumato gives the subject her mysterious, atmospheric quality."
+  },
+  {
+    "id": 12,
+    "title": "Las Meninas",
+    "artist": "Diego Velázquez",
+    "year": 1656,
+    "medium": "Oil on canvas",
+    "era": "Baroque",
+    "museum": "Museo del Prado",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+    "description": "A complex and enigmatic composition showing the Infanta Margarita surrounded by her ladies-in-waiting, with Velázquez himself visible painting at a large canvas. The work plays with mirrors, perspective, and the nature of representation."
+  },
+  {
+    "id": 13,
+    "title": "The Last Supper",
+    "artist": "Leonardo da Vinci",
+    "year": 1498,
+    "medium": "Tempera and oil on plaster",
+    "era": "Renaissance",
+    "museum": "Santa Maria delle Grazie",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/3840px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
+    "description": "Painted on the refectory wall of a Milan convent, this monumental mural captures the dramatic moment Christ announces that one of his apostles will betray him, capturing twelve distinct emotional reactions."
+  },
+  {
+    "id": 14,
+    "title": "American Gothic",
+    "artist": "Grant Wood",
+    "year": 1930,
+    "medium": "Oil on beaverboard",
+    "era": "American Realism",
+    "museum": "Art Institute of Chicago",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/1280px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg",
+    "description": "One of the most recognizable images in 20th-century American art, depicting a farmer and his daughter standing before a wooden house. Wood used his sister and dentist as models for the austere, stoic figures."
+  },
+  {
+    "id": 15,
+    "title": "A Sunday on La Grande Jatte",
+    "artist": "Georges Seurat",
+    "year": 1886,
+    "medium": "Oil on canvas",
+    "era": "Post-Impressionism",
+    "museum": "Art Institute of Chicago",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/960px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "description": "Seurat's monumental pointillist masterpiece depicts Parisians relaxing on an island in the Seine. Composed of millions of tiny dots of color, it took two years to complete and founded the Neo-Impressionist movement."
+  },
+  {
+    "id": 16,
+    "title": "Wanderer above the Sea of Fog",
+    "artist": "Caspar David Friedrich",
+    "year": 1818,
+    "medium": "Oil on canvas",
+    "era": "Romanticism",
+    "museum": "Kunsthalle Hamburg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+    "description": "A lone figure stands on a rocky precipice, gazing out over a vast landscape shrouded in mist. The quintessential Romantic image of solitary contemplation in the face of sublime nature."
+  },
+  {
+    "id": 17,
+    "title": "Impression, Sunrise",
+    "artist": "Claude Monet",
+    "year": 1872,
+    "medium": "Oil on canvas",
+    "era": "Impressionism",
+    "museum": "Musée Marmottan Monet",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1920px-Monet_-_Impression%2C_Sunrise.jpg",
+    "description": "The painting that gave Impressionism its name. Monet's loose, spontaneous brushwork captures the shimmer of morning light over the port of Le Havre, with an orange sun reflected on the misty water."
+  },
+  {
+    "id": 18,
+    "title": "The Arnolfini Portrait",
+    "artist": "Jan van Eyck",
+    "year": 1434,
+    "medium": "Oil on oak panel",
+    "era": "Renaissance",
+    "museum": "National Gallery",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/1280px-The_Arnolfini_portrait_%281434%29.jpg",
+    "description": "A double portrait of an Italian merchant and his wife, renowned for its meticulous detail and symbolic richness. The convex mirror in the background reflects two additional figures, one of whom may be van Eyck himself."
+  },
+  {
+    "id": 19,
+    "title": "The Hay Wain",
+    "artist": "John Constable",
+    "year": 1821,
+    "medium": "Oil on canvas",
+    "era": "Romanticism",
+    "museum": "National Gallery",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/John_Constable_-_The_Hay_Wain_%281821%29.jpg/3840px-John_Constable_-_The_Hay_Wain_%281821%29.jpg",
+    "description": "A tranquil scene of rural English life on the River Stour, with a horse-drawn cart fording the water beside Willy Lott's cottage. Constable's naturalistic depiction of the Suffolk landscape was revolutionary for its time."
+  },
+  {
+    "id": 20,
+    "title": "Le Déjeuner sur l'herbe",
+    "artist": "Édouard Manet",
+    "year": 1863,
+    "medium": "Oil on canvas",
+    "era": "Impressionism",
+    "museum": "Musée d'Orsay",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg/960px-%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg",
+    "description": "Manet's scandalous submission to the 1863 Salon des Refusés shocked audiences with its juxtaposition of a nude woman and two fully clothed men in a contemporary outdoor setting, breaking sharply with academic tradition."
   }
 ]

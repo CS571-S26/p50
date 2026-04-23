@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -6,10 +6,10 @@ function Navbar() {
     <nav className="navbar">
       <Link to="/" className="navbar-logo">Curatorio</Link>
       <div className="navbar-links">
-        <Link to="/">Home</Link>
-        <Link to="/">Browse</Link>
-        <Link to="/">Collections</Link>
-        <Link to="/">Sign In</Link>
+        <NavLink to="/" end className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
+        <NavLink to="/browse" className={({ isActive }) => isActive ? 'active' : ''}>Browse</NavLink>
+        <NavLink to="/login" className={({ isActive }) => isActive ? 'active' : ''}>Sign In</NavLink>
+        <NavLink to="/signup" className="nav-signup">Sign Up</NavLink>
       </div>
     </nav>
   );

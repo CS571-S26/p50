@@ -1,14 +1,14 @@
 import './FilterBar.css';
 
-function FilterBar({ activeFilter, onFilterChange }) {
-  const filters = ['All', 'Renaissance', 'Baroque', 'Impressionism', 'Post-Impressionism', 'Surrealism', 'Cubism', 'Expressionism'];
+const FILTERS = ['All', 'Renaissance', 'Baroque', 'Impressionism', 'Post-Impressionism', 'Surrealism', 'Cubism', 'Expressionism'];
 
+function FilterBar({ activeFilter, onFilterChange }) {
   return (
     <div className="filter-bar">
-      {filters.map((filter) => (
+      {FILTERS.map((filter) => (
         <button
           key={filter}
-          className={activeFilter === filter ? 'filter-btn active' : 'filter-btn'}
+          className={`pill${activeFilter === filter ? ' active' : ''}`}
           onClick={() => onFilterChange(filter)}
         >
           {filter}

@@ -1,30 +1,57 @@
 .navbar {
-  background-color: #1a1a1a;
-  padding: 18px 40px;
+  background: var(--charcoal);
+  padding: 20px 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar-logo {
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ivory);
   text-decoration: none;
-  letter-spacing: 2px;
 }
 
 .navbar-links {
   display: flex;
-  gap: 50px;
+  gap: 36px;
+  align-items: center;
 }
 
 .navbar-links a {
-  color: #ccc;
+  color: rgba(245, 240, 235, 0.55);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: color 0.3s;
+  padding-bottom: 3px;
 }
 
 .navbar-links a:hover {
-  color: white;
+  color: var(--ivory);
+}
+
+.navbar-links a.active {
+  color: var(--ivory);
+  border-bottom: 1px solid var(--gold);
+}
+
+.navbar-links .nav-signup {
+  color: var(--ivory);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 6px 16px;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.navbar-links .nav-signup:hover {
+  border-color: var(--gold);
+  color: var(--gold);
 }

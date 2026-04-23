@@ -1,40 +1,42 @@
 .artwork-card {
   text-decoration: none;
-  color: #222;
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
-  overflow: hidden;
-  transition: box-shadow 0.2s;
+  color: inherit;
+  display: block;
+  transition: transform 0.35s ease;
 }
 
 .artwork-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }
 
-.artwork-card-img {
-  width: 100%;
-  height: 240px;
+.card-image {
   overflow: hidden;
-  background: #eee;
+  background: var(--cream);
+  margin-bottom: 14px;
 }
 
-.artwork-card-img img {
+.card-image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  transition: transform 0.6s ease;
 }
 
-.artwork-card-info {
-  padding: 14px;
+.artwork-card:hover .card-image img {
+  transform: scale(1.06);
 }
 
-.artwork-card-info h3 {
+.card-info h3 {
+  font-family: 'Playfair Display', serif;
   font-size: 15px;
-  margin-bottom: 4px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: var(--charcoal);
+  line-height: 1.3;
 }
 
-.artwork-card-info p {
-  font-size: 13px;
-  color: #888;
+.card-info p {
+  font-size: 12px;
+  color: var(--warm-gray);
+  font-weight: 300;
+  letter-spacing: 0.3px;
 }
