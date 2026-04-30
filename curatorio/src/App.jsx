@@ -6,11 +6,12 @@ import Browse from './pages/Browse';
 import ArtworkDetail from './pages/ArtworkDetail';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import MyCollections from './pages/MyCollections';
 import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/p50">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,6 +19,7 @@ function App() {
         <Route path="/artwork/:id" element={<ArtworkDetail />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/collections" element={<MyCollections />} />
       </Routes>
       <Footer />
     </BrowserRouter>

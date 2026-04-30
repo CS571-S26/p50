@@ -8,10 +8,9 @@ function Signup() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    const name = e.target.name.value.trim();
     const email = e.target.email.value.trim();
-    if (!name || !email) return;
-    signup(name, email);
+    if (!email) return;
+    signup(email);
     navigate('/');
   }
 
@@ -22,16 +21,12 @@ function Signup() {
         <h1 className="auth-title">Create Account</h1>
         <form className="auth-form" onSubmit={handleSubmit}>
           <div className="field">
-            <label>Full Name</label>
-            <input name="name" type="text" placeholder="Your name" required />
+            <label htmlFor="signup-email">Email</label>
+            <input id="signup-email" name="email" type="email" placeholder="you@example.com" required />
           </div>
           <div className="field">
-            <label>Email</label>
-            <input name="email" type="email" placeholder="you@example.com" required />
-          </div>
-          <div className="field">
-            <label>Password</label>
-            <input name="password" type="password" placeholder="••••••••" required />
+            <label htmlFor="signup-password">Password</label>
+            <input id="signup-password" name="password" type="password" placeholder="••••••••" required />
           </div>
           <button type="submit" className="auth-btn">Create Account</button>
         </form>

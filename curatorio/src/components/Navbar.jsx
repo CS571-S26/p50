@@ -19,6 +19,7 @@ function Navbar() {
         <NavLink to="/browse" className={({ isActive }) => isActive ? 'active' : ''}>Browse</NavLink>
         {user ? (
           <>
+            <NavLink to="/collections" className={({ isActive }) => isActive ? 'active' : ''}>Collections</NavLink>
             <span className="navbar-user">{user.name}</span>
             <button className="nav-logout" onClick={handleLogout}>Sign Out</button>
           </>

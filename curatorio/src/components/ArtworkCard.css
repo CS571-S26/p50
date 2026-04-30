@@ -1,12 +1,17 @@
 .artwork-card {
-  text-decoration: none;
-  color: inherit;
+  position: relative;
   display: block;
   transition: transform 0.35s ease;
 }
 
 .artwork-card:hover {
   transform: translateY(-5px);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .card-image {
@@ -39,4 +44,40 @@
   color: var(--warm-gray);
   font-weight: 300;
   letter-spacing: 0.3px;
+}
+
+/* Favorite button */
+.fav-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(6px);
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s, background 0.25s;
+  z-index: 1;
+  line-height: 1;
+}
+
+.artwork-card:hover .fav-btn {
+  opacity: 1;
+}
+
+.fav-btn.favorited {
+  opacity: 1;
+  background: var(--terracotta);
+}
+
+.fav-btn:hover {
+  background: var(--terracotta);
 }

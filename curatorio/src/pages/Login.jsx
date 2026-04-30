@@ -21,12 +21,12 @@ function Login() {
         <h1 className="auth-title">Sign In</h1>
         <form className="auth-form" onSubmit={handleSubmit}>
           <div className="field">
-            <label>Email</label>
-            <input name="email" type="email" placeholder="you@example.com" required />
+            <label htmlFor="login-email">Email</label>
+            <input id="login-email" name="email" type="email" placeholder="you@example.com" required />
           </div>
           <div className="field">
-            <label>Password</label>
-            <input name="password" type="password" placeholder="••••••••" required />
+            <label htmlFor="login-password">Password</label>
+            <input id="login-password" name="password" type="password" placeholder="••••••••" required />
           </div>
           <button type="submit" className="auth-btn">Sign In</button>
         </form>

@@ -1,7 +1,7 @@
 :root {
   --ivory: #F5F0EB;
   --charcoal: #1A1A1A;
-  --warm-gray: #8A8279;
+  --warm-gray: #5C5750;
   --terracotta: #C4694A;
   --gold: #B8965A;
   --cream: #EDE7DF;
@@ -30,3 +30,15 @@ body {
 a { color: inherit; }
 img { display: block; }
 button { font-family: inherit; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

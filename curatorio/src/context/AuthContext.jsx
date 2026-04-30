@@ -35,8 +35,8 @@ export function AuthProvider({ children }) {
     setUser({ email, name: email.split('@')[0] });
   }
 
-  function signup(name, email) {
-    setUser({ email, name });
+  function signup(email) {
+    setUser({ email, name: email.split('@')[0] });
   }
 
   function logout() {
@@ -60,8 +60,8 @@ export function AuthProvider({ children }) {
     return favorites.includes(artworkId);
   }
 
-  function addCollection(name) {
-    const col = { id: Date.now(), name, artworkIds: [] };
+  function addCollection(name, description = '') {
+    const col = { id: Date.now(), name, description, artworkIds: [] };
     setCollections((prev) => [...prev, col]);
     return col.id;
   }
