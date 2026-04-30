@@ -55,3 +55,26 @@
   border-color: var(--gold);
   color: var(--gold);
 }
+
+.navbar-user {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--ivory);
+  opacity: 0.75;
+}
+
+.nav-logout {
+  background: none;
+  border: none;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(245, 240, 235, 0.55);
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.3s;
+}
+
+.nav-logout:hover {
+  color: var(--terracotta);
+}
