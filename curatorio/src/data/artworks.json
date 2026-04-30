@@ -218,5 +218,170 @@
     "museum": "Musée d'Orsay",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg/960px-%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg",
     "description": "Manet's scandalous submission to the 1863 Salon des Refusés shocked audiences with its juxtaposition of a nude woman and two fully clothed men in a contemporary outdoor setting, breaking sharply with academic tradition."
+  },
+  {
+    "id": 21,
+    "title": "The Night Watch",
+    "artist": "Rembrandt van Rijn",
+    "year": 1642,
+    "medium": "Oil on canvas",
+    "era": "Baroque",
+    "museum": "Rijksmuseum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+    "description": "Rembrandt's monumental group portrait of an Amsterdam militia company captures Captain Frans Banninck Cocq leading his men into action. The dynamic composition and dramatic chiaroscuro broke radically with the static conventions of group portraiture."
+  },
+  {
+    "id": 22,
+    "title": "The Creation of Adam",
+    "artist": "Michelangelo",
+    "year": 1512,
+    "medium": "Fresco",
+    "era": "Renaissance",
+    "museum": "Sistine Chapel",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
+    "description": "Part of the Sistine Chapel ceiling, this iconic fresco depicts God reaching out to give life to Adam, their fingers nearly touching. The image has become one of the most replicated religious paintings in history."
+  },
+  {
+    "id": 23,
+    "title": "The Two Fridas",
+    "artist": "Frida Kahlo",
+    "year": 1939,
+    "medium": "Oil on canvas",
+    "era": "Surrealism",
+    "museum": "Museo de Arte Moderno",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/The_Two_Fridas.jpg",
+    "description": "A double self-portrait painted shortly after Kahlo's divorce from Diego Rivera, showing two versions of herself with hearts exposed and connected by a single artery. The work reflects her emotional duality and personal anguish."
+  },
+  {
+    "id": 24,
+    "title": "Liberty Leading the People",
+    "artist": "Eugène Delacroix",
+    "year": 1830,
+    "medium": "Oil on canvas",
+    "era": "Romanticism",
+    "museum": "Louvre Museum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+    "description": "Commemorating the July Revolution of 1830, Delacroix depicts the allegorical figure of Liberty as a bare-breasted woman holding the tricolor flag, leading a diverse group of revolutionaries over the bodies of fallen soldiers."
+  },
+  {
+    "id": 25,
+    "title": "The School of Athens",
+    "artist": "Raphael",
+    "year": 1511,
+    "medium": "Fresco",
+    "era": "Renaissance",
+    "museum": "Apostolic Palace",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "description": "A grand fresco in the Vatican depicting the greatest philosophers, mathematicians, and scientists of antiquity gathered together. Plato and Aristotle stand at the center, surrounded by figures including Socrates, Pythagoras, and Euclid."
+  },
+  {
+    "id": 26,
+    "title": "Bal du moulin de la Galette",
+    "artist": "Pierre-Auguste Renoir",
+    "year": 1876,
+    "medium": "Oil on canvas",
+    "era": "Impressionism",
+    "museum": "Musée d'Orsay",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_%28derivative_work_-_AutoContrast_edit_in_LCH_space%29.jpg",
+    "description": "A vibrant scene of Parisians dancing and socializing at a popular Montmartre dance garden on a Sunday afternoon. Renoir's masterful depiction of dappled sunlight filtering through the trees captures the joy of bourgeois leisure."
+  },
+  {
+    "id": 27,
+    "title": "Three Musicians",
+    "artist": "Pablo Picasso",
+    "year": 1921,
+    "medium": "Oil on canvas",
+    "era": "Cubism",
+    "museum": "Museum of Modern Art",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d1/Picasso_three_musicians_moma_2006.jpg",
+    "description": "A vivid example of Synthetic Cubism, the painting shows three masked figures—a Pierrot, a Harlequin, and a monk—rendered as flat, brightly colored geometric shapes. Picasso assembled the composition like a paper collage translated into paint."
+  },
+  {
+    "id": 28,
+    "title": "Self-Portrait with Bandaged Ear",
+    "artist": "Vincent van Gogh",
+    "year": 1889,
+    "medium": "Oil on canvas",
+    "era": "Post-Impressionism",
+    "museum": "Courtauld Gallery",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Vincent_van_Gogh_-_Self-portrait_with_bandaged_ear_%281889%2C_Courtauld_Institute%29.jpg",
+    "description": "Painted shortly after the infamous incident in Arles, van Gogh portrays himself bundled against the cold, his ear wrapped in a white bandage. The Japanese woodblock print on the wall behind him reflects his lifelong admiration for Eastern art."
+  },
+  {
+    "id": 29,
+    "title": "The Third of May 1808",
+    "artist": "Francisco Goya",
+    "year": 1814,
+    "medium": "Oil on canvas",
+    "era": "Romanticism",
+    "museum": "Museo del Prado",
+    "image": "https://cdn.kastatic.org/ka-content-images/aa41e7bac50d9f9cd236599471d86fe2ce7686d4.jpg",
+    "description": "A harrowing depiction of Spanish civilians being executed by Napoleonic soldiers during the Peninsular War. Goya's unflinching portrayal of war's brutality marked a turning point in the depiction of historical violence."
+  },
+  {
+    "id": 30,
+    "title": "The Card Players",
+    "artist": "Paul Cézanne",
+    "year": 1895,
+    "medium": "Oil on canvas",
+    "era": "Post-Impressionism",
+    "museum": "Musée d'Orsay",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg",
+    "description": "Part of a five-painting series, Cézanne portrays Provençal peasants absorbed in a quiet game of cards. His structured, geometric approach to form and his use of color to model space anticipated the developments of Cubism."
+  },
+  {
+    "id": 31,
+    "title": "The Fighting Temeraire",
+    "artist": "J.M.W. Turner",
+    "year": 1839,
+    "medium": "Oil on canvas",
+    "era": "Romanticism",
+    "museum": "National Gallery",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/The_Fighting_Temeraire%2C_JMW_Turner%2C_National_Gallery.jpg",
+    "description": "Turner's elegiac vision of the famed warship being towed up the Thames to be scrapped, with a blazing sunset symbolizing the end of an era. The painting elegantly contrasts the ghostly sailing vessel with the dark steam tug pulling it forward."
+  },
+  {
+    "id": 32,
+    "title": "Bedroom in Arles",
+    "artist": "Vincent van Gogh",
+    "year": 1888,
+    "medium": "Oil on canvas",
+    "era": "Post-Impressionism",
+    "museum": "Van Gogh Museum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg/1280px-Vincent_van_Gogh_-_De_slaapkamer_-_Google_Art_Project.jpg",
+    "description": "Van Gogh painted his simple bedroom in the Yellow House in Arles using bold, flat colors and tilted perspective. He intended the work to express absolute restfulness, with the strong hues meant to soothe the eye and mind."
+  },
+  {
+    "id": 33,
+    "title": "The Elephant Celebes",
+    "artist": "Max Ernst",
+    "year": 1921,
+    "medium": "Oil on canvas",
+    "era": "Surrealism",
+    "museum": "Tate Modern",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2b/The_Elephant_Celebes.jpg",
+    "description": "A bizarre mechanical elephant-like creature dominates a desolate landscape, accompanied by a headless mannequin. Ernst drew inspiration from a photograph of a Sudanese corn bin, transforming an ordinary object into an unsettling Surrealist vision."
+  },
+  {
+    "id": 34,
+    "title": "The Lovers",
+    "artist": "Rene Magritte",
+    "year": 1928,
+    "medium": "Oil on canvas",
+    "era": "Surrealism",
+    "museum": "Museum of Modern Art",
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/59/Ren%C3%A9_Magritte_-_The_Lovers_%28Les_Amants%29_1928.jpg",
+    "description": "René Magritte's *The Lovers* (1928) shows a couple kissing with their heads veiled in white cloth, evoking themes of isolation and obscured intimacy."
+  },
+  {
+    "id": 35,
+    "title": "Street, Berlin",
+    "artist": "Ernst Ludwig Kirchner",
+    "year": 1913,
+    "medium": "Oil on canvas",
+    "era": "Expressionism",
+    "museum": "Museum of Modern Art",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Kirchner_1913_Street%2C_Berlin.jpg",
+    "description": "Kirchner depicts the frenetic energy of pre-war Berlin with sharp, angular figures crowded onto a city street. Two cocottes in elaborate hats dominate the foreground, embodying the alienation and moral tension of modern urban life."
   }
 ]
